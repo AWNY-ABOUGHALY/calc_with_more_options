@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Awny's Calculator</title>
+</head>
+<body>
+
+<div class="home">
+    <div class="calc rounded">
+        <div style="height:35px" class="head d-flex justify-content-between align-items-start mb-3 border border-1 rounded-top">
+            <div class="d-flex justify-content-center align-items-start">
+                <i class="fa-solid fa-calculator px-2 py-2"></i>
+                <h5 class="p-1">Calculator</h5>
+            </div>
+            <div style="height: 35px;" class="d-flex justify-content-center align-items-start">
+                <p class="minimize px-3 pt-0 pb-2 text-dark"><i class="fa-solid fa-window-minimize"></i></p>
+                <p class="maximize px-3 py-1 text-dark"><i class="fa-solid fa-window-maximize"></i></p>
+                <p class="close px-3 py-1 rounded-end"><i class="fa-solid fa-xmark"></i></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex justify-content-center pt-0 pb-2 px-2">
+                <input type="text" class="history col-12 px-2 py-0 fw-bold border-0 border-bottom">
+                <input type="text" class="screen col-12 px-4 py-4 fw-bold fs-1 border border-0 rounded">
+                <button value="" class="PlusMinus btn col-3 fw-bold fs-3 btn-secondary"><i class="fa-solid fa-plus-minus"></i></button>
+                <button class="butns btn AC col-3 fw-bold fs-3 btn-secondary">AC</button>
+                <button value="clear" class="butns btn clear col-3 fw-bold fs-3 btn-secondary">C</button>
+                <button value="" class="Earser btn col-3 fw-bold fs-3 btn-secondary"><i class="fa-solid fa-delete-left"></i></button>
+                <button value="(" class="butns btn col-3 fw-bold fs-3 btn-secondary">(</button>
+                <button value=")" class="butns btn col-3 fw-bold fs-3 btn-secondary">)</button>
+                <button value="" class="butns btn col-3 fw-bold fs-3 btn-secondary"></button>
+                <button value="/" class="butns btn col-3 fw-bold fs-3 btn-secondary"><i class="fa-solid fa-divide"></i></button>
+                <button value="1" class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">1</button>
+                <button value="2" class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">2</button>
+                <button value="3" class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">3</button>
+                <button value="*" class="butns btn col-3 fw-bold fs-3 btn-secondary"><i class="fa-solid fa-xmark"></i></button>
+                <button value="4" class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">4</button>
+                <button value="5" class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">5</button>
+                <button value="6" class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">6</button>
+                <button value="-" class="butns btn col-3 fw-bold fs-3 btn-secondary"><i class="fa-solid fa-minus"></i></button>
+                <button value="7" class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">7</button>
+                <button value="8" class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">8</button>
+                <button value="9" class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">9</button>
+                <button value="+" class="butns btn col-3 fw-bold fs-3 btn-secondary"><i class="fa-solid fa-plus"></i></button>
+                <button value="." class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">.</button>
+                <button value="0" class="butns btn border col-3 fw-bold fs-3 btn-outline-light text-dark">0</button>
+                <button value="=" class="Equal btn col-6 fw-bold fs-3 btn-secondary"><i class="fa-solid fa-equals"></i></button>
+            </div>
+        </div>
+    </div>
+    
+<audio src="audio/button_sound.mp3" controls>click here</audio>
+</div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
